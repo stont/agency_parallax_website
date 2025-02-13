@@ -1,0 +1,72 @@
+name: bubble_house_biz
+description: A storytelling business website built with Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI and Animation
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  animated_text_kit: ^4.2.2
+  lottie: ^2.7.0
+  flutter_animate: ^4.2.0
+  font_awesome_flutter: ^10.6.0
+  pull_to_refresh: ^2.0.0
+  video_player: ^2.8.1
+
+  # State Management
+  provider: ^6.0.5
+
+  # Navigation
+  go_router: ^13.0.0
+
+  # Utilities
+  url_launcher: ^6.2.2
+  flutter_svg: ^2.0.9
+  visibility_detector: ^0.4.0+2
+
+  # Responsive Design
+  responsive_framework: ^1.5.1
+
+  # For web specifically
+  universal_html: ^2.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/hero/
+    - assets/images/hero/journey.webp
+    - assets/images/hero/memories.jpg
+    - assets/images/hero/home.jpg
+    - assets/images/hero/tech_solutions.jpg
+    - assets/images/stories/
+    - assets/images/services/
+    - assets/images/team/team_member_1.jpg
+    - assets/images/team/team_member_2.jpg
+    - assets/animations/lottie/tech_evolution.json
+    - assets/animations/lottie/growing_tree.json
+    - assets/animations/rive/
+    - assets/icons/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
