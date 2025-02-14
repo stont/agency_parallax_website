@@ -26,7 +26,7 @@ Open your terminal/command prompt and run:
 
 ```bash
 # Clone the project
-git clone https://github.com/your-username/bubble_house_biz.git
+git clone https://github.com/stont/agency_parallax_website.git
 
 # Go into the project folder
 cd bubble_house_biz
