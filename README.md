@@ -29,7 +29,7 @@ Open your terminal/command prompt and run:
 git clone https://github.com/stont/agency_parallax_website.git
 
 # Go into the project folder
-cd bubble_house_biz
+cd agency_parallax_website
 
 # Get all the required packages
 flutter pub get
